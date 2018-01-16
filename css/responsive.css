@@ -1,0 +1,524 @@
+/* NEDIA QUERIES */
+@media screen and (max-width: 2000px) {
+    #ourServices li {
+        width: 21%;
+    }
+
+    #ourServices li:nth-child(2),
+    #ourServices li:nth-child(3),
+    #ourServices li:nth-child(4) {
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    /*  Global styles */
+    #ourServices hr,
+    #ourPlaylist hr,
+    #testimonial hr {
+        width: 20%;
+    }
+
+    /* Header */
+    header #logo {
+        float: none;
+        text-align: center;
+    }
+
+    header nav {
+        float: none;
+    }
+
+    header nav li {
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 0;
+        width: 16%;
+        text-align: center;
+    }
+
+    header nav li .dropDown {
+        height: auto;
+        background: #fff;
+        position: absolute;
+        width: 20%;
+        z-index: 100000;
+        display: none;
+    }
+
+    header nav .dropDown li {
+        float: none;
+    }
+
+    header nav .dropDown li a {
+        display: block;
+        padding: 10px 20px;
+    }
+
+    header nav .dropDown li a:hover {
+        color: #3348b4;
+    }
+
+    header nav .dropDown li a:nth-last-child(odd) {
+        margin-bottom: 10px;
+    }
+
+    header nav .dropDown li a:nth-child(1) {
+        margin-top: 10px;
+    }
+
+
+
+    /* Banner */
+    #banner marquee {
+        margin: 46px 0;
+    }
+
+    #banner .space {
+        margin-top: 20px;
+    }
+
+    /* Our services */
+
+    #ourPlaylist .courses_playlist a {
+        font-size: 20px;
+    }
+
+    /* Footer */
+    footer ul {
+        float: left;
+        width: 43%;
+        background: #ffffff;
+        padding: 2%;
+        margin: 5px 2%;
+    }
+
+    footer ul:nth-child(3),
+    footer ul:nth-child(4){
+        width: 93%;
+    }
+
+    * {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 842px) {
+    /*  Global styles */
+    #ourServices hr,
+    #ourPlaylist hr,
+    #testimonial hr {
+        width: 25%;
+    }
+
+    /* Our Services */
+    #ourServices li {
+        width: 42%;
+        margin: 0 0.5% 3% 0.5%;
+        padding: 5% 3%;
+    }
+
+    #ourServices li:hover {
+        border: 1px solid #3348b4;
+        padding: 5% 3%;
+    }
+
+    #ourServices li:nth-child(2),
+    #ourServices li:nth-child(3),
+    #ourServices li:nth-child(4) {
+        margin-left: 1.9%;
+    }
+
+    #ourServices li:nth-child(3) {
+        margin-left: 0.5%;
+    }
+
+    /* Our team */
+    #ourTeam li {
+        width: 43%;
+        margin: 0 4.5%;
+    }
+
+    #ourTeam li:hover {
+        border: none;
+    }
+
+    #ourTeam li:nth-child(2),
+    #ourTeam li:nth-child(3),
+    #ourTeam li:nth-child(4) {
+        margin-left: 4.5%;
+    }
+
+    #ourTeam li:nth-child(even) {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 693px) {
+    /* Our Services */
+    #ourServices li {
+        width: 42%;
+        margin: 0 0.4% 3% 0.4%;
+        padding: 5% 3%;
+    }
+
+    /* Subscribe */
+    form label input,
+    form label textarea {
+        padding: 2.5% 2%;
+        margin-bottom: 0;
+    }
+
+    form label:nth-child(odd) {
+        float: none;
+    }
+
+    form label:nth-child(even) {
+        float: none;
+    }
+
+    form label input:nth-child(odd) {
+        width: 96%;
+    }
+
+    form label input:nth-child(even) {
+        width: 96%;
+    }
+
+    form .submit {
+        margin: 0;
+        width: 100%;
+    }
+
+    .name_result,
+    .email_result,
+    .website_result,
+    .phone_no_result,
+    .subject_result,
+    .captcha_result {
+        width: 96%;
+    }
+
+    .submit #subscribe {
+        display: block;
+        margin: 10px 0;
+        width: 100% ;
+        padding: 10px;
+    }
+
+    .submit .reset {
+        display: block;
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Errors */
+    .errors {
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    /* Success */
+    .success {
+        width: 96%;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 612px) {
+    /*  Global styles */
+    #ourServices hr,
+    #ourPlaylist hr,
+    #testimonial hr {
+        width: 25% !important;
+    }
+
+    /* TopBar */
+    #topBar {
+        display: none;
+    }
+
+    /* Our services */
+    #ourServices li {
+        width: 60%;
+        margin: 20px 20%;
+    }
+
+    #ourServices li:nth-child(2),
+    #ourServices li:nth-child(3),
+    #ourServices li:nth-child(4) {
+        margin: 20px 20%;
+    }
+
+    #ourServices h2,
+    #ourPlaylist h2,
+    #testimonial h2 {
+        font-size: 20px;
+    }
+
+    #ourServices hr,
+    #ourPlaylist hr,
+    #testimonial hr {
+        width: 40%;
+    }
+
+    /* Our team */
+    /* Our services */
+    #ourTeam li {
+        width: 70%;
+        margin: 20px 15%;
+    }
+
+    #ourTeam li:nth-child(2),
+    #ourTeam li:nth-child(3),
+    #ourTeam li:nth-child(4) {
+        margin: 20px 15%;
+    }
+
+    /* our playlist */
+    #ourPlaylist .courses a {
+        float: left;
+        width: 47%;
+        margin: 10px 1%;
+
+    }
+
+    #ourPlaylist .courses a:nth-child(2),
+    #ourPlaylist .courses a:nth-child(3),
+    #ourPlaylist .courses a:nth-child(4) {
+        margin: 10px 1%;
+    }
+
+    #ourPlaylist .courses a:nth-child(even) {
+        margin-left: 1%;
+    }
+
+    #ourPlaylist .courses a:nth-child(4) {
+        margin-right: 1%;
+    }
+
+    #ourPlaylist .courses_playlist a {
+        float: left;
+        width: 47%;
+        margin: 10px 1%;
+        font-size: 20px;
+
+    }
+
+    #ourPlaylist .courses_playlist a:nth-child(2),
+    #ourPlaylist .courses_playlist a:nth-child(3),
+    #ourPlaylist .courses_playlist a:nth-child(4) {
+        margin: 10px 1%;
+    }
+
+    #ourPlaylist .courses_playlist a:nth-child(even) {
+        margin-left: 1%;
+    }
+
+    #ourPlaylist .courses_playlist a:nth-child(4) {
+        margin-right: 1%;
+    }
+
+    /* Footer */
+    footer ul {
+        width: 93%;
+    }
+
+    footer ul:nth-child(2){
+        margin: 5px 2%;
+    }
+
+    /* Contact us */
+    form label input,
+    form label textarea {
+        padding: 2.5% 2%;
+        margin-bottom: 0;
+    }
+
+    form label:nth-child(odd) {
+        float: none;
+    }
+
+    form label:nth-child(even) {
+        float: none;
+    }
+
+    form label input:nth-child(odd) {
+        width: 96%;
+    }
+
+    form label input:nth-child(even) {
+        width: 96%;
+    }
+
+    form .submit {
+        margin: 0;
+        width: 100%;
+    }
+
+    .submit .send {
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .submit .reset {
+        display: block;
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .our_team hr {
+        width: 29% !important;
+        margin: 10px 35%;
+    }
+
+    header nav .dropDown li a {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*  Global styles */
+    #ourServices hr,
+    #ourPlaylist hr,
+    #testimonial hr {
+        width: 40% !important;
+    }
+
+    /* Our services */
+    #ourServices li {
+        width: 90%;
+        margin: 0 2% 3% 2%;
+        padding: 5% 3%;
+    }
+
+    #ourServices li:nth-child(2),
+    #ourServices li:nth-child(3),
+    #ourServices li:nth-child(4) {
+        margin-left: 2%;
+    }
+
+    /* our playlist */
+    #ourPlaylist .courses a {
+         float: left;
+         width: 47%;
+         margin: 10px 1%;
+
+     }
+
+    #ourPlaylist .courses a:nth-child(2),
+    #ourPlaylist .courses a:nth-child(3),
+    #ourPlaylist .courses a:nth-child(4) {
+        margin: 10px 1%;
+    }
+
+    #ourPlaylist .courses a:nth-child(even) {
+        margin-left: 1%;
+    }
+
+    #ourPlaylist .courses a:nth-child(4) {
+        margin-right: 1%;
+    }
+
+    #ourPlaylist .courses_playlist a {
+        width: 100%;
+        padding: 20% 0;
+        font-size: 19px;
+    }
+
+    #ourPlaylist .courses_playlist a:nth-child(2),
+    #ourPlaylist .courses_playlist a:nth-child(3),
+    #ourPlaylist .courses_playlist a:nth-child(4) {
+        margin: 10px 1%;
+    }
+
+    #ourPlaylist .courses_playlist a:nth-child(even) {
+        margin-left: 1%;
+    }
+
+    #ourPlaylist .courses_playlist a:nth-child(4) {
+        margin-right: 1%;
+    }
+
+    #ourServices hr,
+    #ourPlaylist hr,
+    #testimonial hr {
+        width: 60%;
+    }
+
+    /* Header */
+    header nav li {
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    header nav {
+        background: #1e2429;
+    }
+
+    header .container {
+        padding: 0;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 0;
+    }
+    header nav li a {
+        display: block;
+        padding: 15px 0;
+        margin: 0;
+        border-top: 1px solid #171b19;
+        color: #fff;
+    }
+
+    #burgerMenu {
+        width: 100%;
+        height: 40px;
+        background: url("../images/others/burger-menu.png") no-repeat 98% center;
+        cursor: pointer;
+        padding: 10px 0;
+    }
+
+    header nav ul {
+        height: 0;
+        overflow: hidden;
+    }
+
+    header nav ul.open {
+        height: auto;
+    }
+
+    .page-title h2 {
+        font-size: 28px;
+        padding: 30px;
+    }
+
+    .our_team li {
+        width: 90% !important;
+        margin: 20px 3% !important;
+    }
+
+    .our_team li:nth-child(2),
+    .our_team li:nth-child(3),
+    .our_team li:nth-child(4) {
+        margin: 20px 3% !important;
+    }
+
+    .our_team h2 {
+        font-size: 20px !important;
+    }
+
+    .our_team hr {
+        width: 50% !important;
+        margin: 10px 25%;
+    }
+
+}

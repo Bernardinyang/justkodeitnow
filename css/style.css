@@ -1,0 +1,911 @@
+* {
+    font-family: "Calibri Light";
+    font-size: 17px;
+}
+
+h1, h2, h3, h4, ul, li, p, body {
+    margin: 0;
+    padding: 0;
+}
+
+section, main, header, footer {
+    display: block;
+}
+
+body {
+    color: #545455;
+    background: #fff;
+}
+
+/*----------------------
+    Basic styles
+_______________________*/
+
+.container {
+    width: 96%;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clearFix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#breadcrumb {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    background: #fff;
+    padding: 0 10px;
+}
+
+#breadcrumb li {
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#breadcrumb .seperator {
+    margin: 0 10px;
+}
+
+#breadcrumb li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #3348b4;
+}
+
+/* Errors */
+.errors {
+    width: 100%;
+    background: rgb(177, 53, 45);
+    border-bottom: 3px solid #1e2429;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.errors2 {
+    background: rgb(177, 53, 45);
+}
+
+.name_result,
+.email_result,
+.website_result,
+.phone_no_result,
+.subject_result,
+.captcha_result{
+    width: 100%;
+    background: #fff;
+    border-bottom: 3px solid #1e2429;
+    opacity: 0.8;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.message_result {
+    background: #fff;
+    width: 98%;
+    border-bottom: 3px solid #1e2429;
+    opacity: 0.8;
+    font-weight: bold;
+    font-style: italic;
+    padding: 1%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.message_errors {
+    background: rgb(177, 53, 45);
+    width: 96%;
+    border-bottom: 3px solid #1e2429;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.message_success {
+    background: rgb(9, 177, 16);
+    width: 96%;
+    border-bottom: 3px solid #1e2429;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.result {
+    background: #1e2429;
+}
+
+/* Success */
+.success {
+    width: 100%;
+    background: rgb(9, 177, 16);
+    border-bottom: 3px solid #1e2429;
+    color: #fff;
+    opacity: 0.8;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.success2 {
+    background: rgb(9, 177, 16);
+}
+
+.required {
+    color: #ff0002;
+}
+
+/*-----------------------
+    TopBar styles
+_________________________*/
+
+#topBar {
+    background: #171b19;
+    max-height:43px;
+}
+
+#topBar h4 {
+    float: left;
+    margin-top: 10px;
+}
+
+#topBar h4 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#topBar h4 .numberDivider {
+    margin: 0 15px;
+    color: #ffffff;
+}
+
+#topBar #social li {
+    list-style: none;
+    float: right;
+    margin-top: 12px;
+}
+
+#topBar #social li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    box-shadow: #171b19 -3px 3px 3px;
+}
+
+#topBar #social li a.facebook {
+    background: #3348b4;
+}
+
+#topBar #social li a.whatsapp {
+    background: #32CD32;
+}
+
+#topBar #social li a.skype {
+    background: #4DD0FA;
+}
+
+#topBar #social li a.gmail {
+    background: #b44d27;
+}
+
+/* -------------------
+    Header styles
+_______________________ */
+header {
+    background: #ffffff;
+    padding: 10px 0;
+}
+
+header #logo {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+header #logo a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+@keyframes example {
+    0%   {transform: translateX(0); color: #3348b4;}
+    25%  {transform: translateX(5px); color: #3348b4;}
+    50%  {transform: translateX(10px); color: #3348b4;}
+    100% {transform: translateX(15px); color: #3348b4;}
+}
+
+header #logo a h2:hover {
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+header #logo h2 {
+    font-size: 35px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav li {
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+}
+
+header nav li a {
+    text-decoration: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: #171b19;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+header nav li a.active {
+    color: #3348b4;
+}
+
+header nav li a:hover {
+    color: #3348b4;
+    transition: 0.5s;
+}
+
+header nav li .dropDown {
+    height: auto;
+    background: #fff;
+    position: absolute;
+    width: 13%;
+    z-index: 100000;
+    display: none;
+}
+
+header nav .dropDown li {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+header nav .dropDown li a {
+    color: #000;
+    text-align: center;
+    display: block;
+    padding: 10px 10px 10px 0;
+}
+
+header nav .dropDown li a:hover {
+    color: #3348b4;
+}
+
+header nav .dropDown li a:nth-last-child(odd) {
+    margin-bottom: 10px;
+}
+
+header nav .dropDown li a:nth-child(1) {
+    margin-top: 10px;
+}
+
+/*--------------------------
+        Banner style
+_____________________________*/
+#banner {
+    background: url("../images/banner&backgrounds/04.jpg") no-repeat fixed;
+    height: auto;
+    background-size: cover;
+}
+
+#banner marquee {
+    margin: 64px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    padding: 10px;
+    background: #ffffff;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+#banner .bannerWriteup {
+    background: #000000;
+    color: #ffffff;
+    padding: 5%;
+    line-height: 0.9cm;
+    border: 3px solid #ffffff;
+    text-align: justify;
+    opacity: 0.8;
+}
+
+#banner .bannerButton li {
+    list-style: none;
+    float: left;
+    opacity: 0.8;
+    width: 49%;
+}
+
+#banner .bannerButton li:nth-child(2) {
+    margin-left: 2%;
+}
+
+#banner .bannerButton li a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #000000;
+    padding: 4% 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: default;
+    border: 2px solid #ffffff;
+    display: block;
+    transition: 0.5s;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#banner .bannerButton li a:hover {
+    border: 2px solid #ffffff;
+    color: #000000;
+    background: #ffffff;
+    transition: 0.5s;
+}
+
+#banner .bannerButton .clearFix {
+    margin-bottom: 60px;
+}
+
+.page-title {
+    border: none !important;
+    background: none !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+}
+
+.page-title h2 {
+    font-size: 45px;
+    padding: 30px;
+}
+
+/*--------------------------------
+        Our Services
+__________________________________*/
+#ourServices {
+    height: auto;
+}
+
+#ourServices h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 30px;
+}
+
+#ourServices hr {
+    border: 2px solid #000000;
+    width: 17%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#ourServices li {
+    float: left;
+    width: 22%;
+    list-style: none;
+    text-align: center;
+    line-height: 0.8cm;
+    min-height: 1px;
+    border: 1px solid #909092;
+    padding: 5% 1%;
+    transition: 0.5s;
+}
+
+#ourServices li:hover {
+    border: 1px solid #3348b4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    transition: 0.5s;
+}
+
+#ourServices li:hover > .services h4 {
+    color: #3348b4;
+    transition: 0.5s;
+}
+
+#ourServices li:nth-child(2),
+#ourServices li:nth-child(3),
+#ourServices li:nth-child(4) {
+    margin-left: 1%;
+}
+
+#ourServices li img {
+    width: 40%;
+}
+
+#ourServices li h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #000000;
+    margin: 10px 0;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+#ourServices ul {
+    margin-bottom: 30px;
+}
+
+/*---------------------------
+Our playlist
+____________________________*/
+#ourPlaylist {
+    background: url("../images/banner&backgrounds/05.jpg") no-repeat fixed;
+    background-size: cover;
+    padding: 30px 0;
+    border-top: 5px solid #000000;
+}
+
+#ourPlaylist h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#ourPlaylist hr {
+    border: 2px solid #ffffff;
+    width: 17%;
+    float: left;
+    margin-bottom: 30px;
+}
+#ourPlaylist .courses a {
+    float: left;
+    text-decoration: none;
+    width: 24%;
+    background: #000000;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 28px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-top: 1%;
+    opacity: 0.9;
+
+}
+
+#ourPlaylist .courses a:hover {
+    color: #000000;
+    background: #ffffff;
+    transition: 0.5s;
+}
+
+#ourPlaylist .courses a:nth-child(2),
+#ourPlaylist .courses a:nth-child(3),
+#ourPlaylist .courses a:nth-child(4) {
+    margin-left: 1%;
+}
+
+
+
+#ourPlaylist .courses_playlist a {
+    float: left;
+    text-decoration: none;
+    width: 24%;
+    background: url("../images/video_placeholder/1.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 22px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 600;
+    transition: 0.5s;
+    margin-top: 1%;
+
+}
+
+#ourPlaylist .courses_playlist a:hover {
+    color: #000000;
+    background: #ffffff;
+    transition: 0.5s;
+}
+
+#ourPlaylist .courses_playlist a:nth-child(2),
+#ourPlaylist .courses_playlist a:nth-child(3),
+#ourPlaylist .courses_playlist a:nth-child(4) {
+    margin-left: 1%;
+}
+
+.ourPlaylist-main {
+    background: #fff !important;
+}
+
+/*----------------------------
+        Testimony style
+_______________________________*/
+#testimonial h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #000000;
+}
+
+#testimonial hr {
+    border: 2px solid #000000;
+    width: 17%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#testimonial p {
+    text-align: center;
+    width: 70%;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    color: #000000;
+    line-height: 0.9cm;
+    margin: 10px auto;
+}
+
+#testimonial h4 {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 0.7cm;
+}
+
+#testimonial {
+    margin-bottom: 30px;
+    border-top: 5px solid #000000;
+}
+
+.testimonials {
+    border: 3px solid;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
+    padding: 2% 0;
+}
+
+/*-----------------------
+        Footer style
+__________________________*/
+footer {
+    background: #171b19;
+    padding: 30px 0;
+    border-top: 5px solid #000000;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul {
+    float: left;
+    width: 28.6666%;
+    background: #ffffff;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+footer ul:nth-child(2) {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+footer ul:nth-child(4) {
+    width: 96%;
+}
+
+footer p {
+    text-align: justify;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+footer .first hr {
+    border: 1px solid #000000;
+    width: 100%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+footer .second hr {
+    border: 1px solid #000000;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer .second h2 {
+    text-align: center;
+}
+
+footer .third hr {
+    border: 1px solid #000000;
+    width: 100%;
+    margin-bottom: 20px;
+    float: right;
+}
+
+footer .third h2 {
+    text-align: center;
+}
+
+footer .forth hr {
+    border: 1px solid #000000;
+    width: 100%;
+    margin-bottom: 20px;
+    float: right;
+}
+
+footer .forth h2 {
+    text-align: center;
+}
+
+#copyright {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+#copyright p {
+    text-align: center;
+}
+
+#copyright .copyDivider {
+    margin: 0 15px;
+}
+
+/* Contact us */
+.contact_us {
+    background: #282f35 !important;
+}
+
+form  {
+    margin: 30px 0;
+    font-family: "Myriad Pro";
+}
+
+form label {
+    margin-right: 2%;
+}
+
+form label input,
+form label textarea {
+    padding: 2.5% 2%;
+    margin-bottom: 4%;
+    border: none;
+    background: #1e2429;
+    border-bottom: 3px solid #1e2429;
+    transition: 0.5s;
+    color: #ffffff;
+    font-style: italic;
+}
+
+form label input:focus {
+    border-bottom: 3px solid #fff;
+    transition: 0.5s;
+}
+
+form label:nth-child(odd) {
+    float: left;
+    width: 47%;
+}
+
+form label:nth-child(even) {
+    float: right;
+    width: 47%;
+}
+
+form label input:nth-child(odd) {
+    width: 100%;
+}
+
+form label input:nth-child(even) {
+    width: 100%;
+}
+
+form label:nth-child(7) {
+    float: none;
+}
+
+form textarea {
+    width: 96%;
+}
+
+form label textarea {
+    margin-bottom: 2%;
+    resize: none;
+}
+
+form textarea:focus {
+    border-bottom: 3px solid #fff;
+    transition: 0.5s;
+}
+
+form .submit input {
+    padding: 1.5% 2%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #fff;
+    border: 3px solid #fff;
+    transition: 0.5s;
+}
+
+form .submit input:hover {
+    background: #3348b4;
+    border: 3px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+form .submit {
+    margin: 0 19%;
+    width: 81%;
+}
+
+.submit .send {
+    width: 30%;
+    margin-left: 62px;
+    padding: 1.5% 2%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #fff;
+    border: 3px solid #fff;
+    transition: 0.5s;
+}
+
+.submit .send:hover {
+    background: #3348b4;
+    border: 3px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.submit #subscribe {
+    width: 30%;
+    margin-left: 62px;
+    padding: 1.5% 2%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #fff;
+    border: 3px solid #fff;
+    transition: 0.5s;
+}
+
+.submit #subscribe:hover {
+    background: #3348b4;
+    border: 3px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.submit .reset {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.form_hr {
+    width: 100% !important;
+    border: 2px solid #1e2429 !important;
+}
+
+/* About us */
+.about_us {
+    background: #282f35 !important;
+}
+
+.about_us h2 {
+    margin-top: 20px;
+}
+
+.about_us hr {
+    width: 25% !important;
+    border: 2px solid #fff !important;
+}
+
+.about_us p {
+    color: #fff;
+    text-align: justify;
+}
+
+.about_us .brief_history {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #1e2429;
+}
+
+/*Our team */
+#ourTeam li {
+    float: left;
+    width: 24%;
+    list-style: none;
+    text-align: center;
+    line-height: 0.8cm;
+    min-height: 1px;
+    transition: all 0.3s;
+    position: relative;
+}
+
+#ourTeam li:hover > .services h4 {
+    color: #3348b4;
+}
+
+#ourTeam li:nth-child(2),
+#ourTeam li:nth-child(3),
+#ourTeam li:nth-child(4) {
+    margin-left: 1%;
+}
+
+#ourTeam li h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: #000000;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+#ourTeam hr {
+    width: 15% !important;
+}
+
+#ourTeam ul {
+    margin-bottom: 30px;
+}
+
+#ourTeam li img {
+    width: 100%;
+}
+
+#subscribe {
+    background: url("../images/banner&backgrounds/03.jpg") no-repeat fixed;
+    background-size: cover;
+    border-top: 5px solid #000;
+    padding: 10% 0;
+}
+
+#subscribe form {
+    margin: 0;
+}
